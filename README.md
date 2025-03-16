@@ -11,7 +11,18 @@
 
 ### Important Notes  
 
-- The **test set will be released on Sunday at 11 AM**.  
+- The **test set will be released on Sunday at 11 AM**.
+
+### Test set
+
+- To download the test set, you can either manually download it from the repository, or you can run the following cells:
+
+```python 
+gdown.download('https://drive.google.com/uc?id=1hPNALVA0QQOuAAGx-YSsPXb3BwbJb8j7', 'data_hackaton_test.data', quiet=False)
+```
+```python
+test_df = pd.read_pickle('data_hackaton_test.data')
+```
 
 ### Submission Instructions  
 
